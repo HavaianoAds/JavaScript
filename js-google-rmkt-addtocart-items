@@ -1,0 +1,11 @@
+function() {
+  var ecommerceProductData = [
+    {
+      'id': '{{js-google-content_ids}}',  // Substitua pela variável google-content_ids
+      'google_business_vertical': 'retail',	
+      // Rest of the product data should follow the data layer syntax.
+    },
+    // Multiple products may be included.
+  ];
+  return ecommerceProductData;
+}
